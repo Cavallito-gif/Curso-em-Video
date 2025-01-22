@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <p>tente abrir essa imagem em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/foto-P.png" type="image/png">
+        <source media="(max-width: 1100px)" srcset="imagem/foto-M.png" type="image/png">
+        <img src="imagem/foto-G.png" alt="imagem flexivel">
+    </picture>
+    <h2>Reproduzindo Áudios</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="Midia/Jane Street-TrackTribe.mp3" type="audio/mpeg">
+    </audio>
+    <h2>inserindo vídeos em hospedagem localmente</h2>
+    <p>este vídeo esta localizado no servidor</p>
+    <video src="Vídeo/novo.mp4" width="560" controls></video>
+    <p>o vídeo acima é o jeito fácil</p>
+    <video controls width="560" loop autoplay>
+        <source src="Vídeo/novo.mp4" type="video/mp4">
+    </video>
+    <p>jeito mais díficiel de se escrever o código</p>
+    <h2>inserindo vídeos do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DhRxs9eVlJ4?si=fhC5jEBzsvqUegBR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
+<!--esse preojeto não deu certo, O motivo foi quenquando eu clicava no video o vídeo começava inves de me enviar para outra página, não sei o que aconteceu mas daqui um tempo volto para terminar esse código-->
+<!--esse foi o ultimo código do modulo de html-->
