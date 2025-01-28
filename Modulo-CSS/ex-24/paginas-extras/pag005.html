@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            color: orange;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(253, 98, 98);
+            color: blue;
+        }
+
+        p {
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(253, 98, 98);
+            width: 100px;
+            color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="clicou()">Clique em mim</a>
+    <div id="saida"></div>
+
+
+    <script>
+        function clicou() {
+            s = window.document.getElementById("saida")
+            s.innerHTML += '<p>Você clicou?</p>'
+        }
+    </script>
+</body>
+</html>

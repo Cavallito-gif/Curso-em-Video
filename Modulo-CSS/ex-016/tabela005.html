@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .cnome{
+            background-color: #DAA520;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercicios de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">                               
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">NOME</th>
+                <th scope="col">SEXO</th>
+                <th scope="col">IDADE</th>
+                <th scope="col">PROFISSÃO</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Erminio Santos</td>
+            <td>M</td>
+            <td>49</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Amanda Diaz</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Médicina</td>
+        </tr>
+        <tr>
+            <td>Pedro Cavallieri</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Irene Da Silva</td>
+            <td>F</td>
+            <td>72</td>
+            <td>Custureira</td>
+        </tr>
+        <tr>
+            <td>Edson Cavallieri</td>
+            <td>M</td>
+            <td>48</td>
+            <td>Engenheiro Mêcatronica</td>
+        </tr>
+        <tr>
+            <td>Eliane Cavallieri</td>
+            <td>F</td>
+            <td>47</td>
+            <td>Empresária</td>
+        </tr>
+    </table>
+</body>
+
+</html>
