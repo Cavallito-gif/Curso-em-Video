@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, darkblue,purple,violet);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            /*Medidas Absolutas:
+            cm ;mm ;in(Polegada) ;px ;pt(Ponto) ;pc(paica)
+            
+            Medidas Relativas:
+            em; ex; rem; vw; vh; %.
+            16px geralmente é = 1em*/
+        
+        }
+        main{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: azure;
+            margin: auto;
+            height: 700px;
+            padding: 20px;
+            text-align: center;
+            width: 650px;
+            border-radius: 5%;
+        }
+        h1{
+            color: orange;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.884);
+            text-decoration: underline;
+            font: oblique 500 3em Georgia;
+        }
+        /*Shotheand isso serve para diminuir os códigos, ínves de escrever varias linhas da para simplificar em um só código como "Font: font-style -> font-weight -> font-size -> font-family"*/
+        h2{
+            font: normal bold 1.95em Georgia;
+        }
+        ul{
+            background-image: linear-gradient( to top, rgba(218, 32, 255, 0.945), rgb(245, 138, 255));
+            font: italic 300 1em Georgia;
+            text-align: justify center;
+            border-radius: 9%;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Trabalhando com Fontes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt rerum distinctio ex dignissimos tenetur totam quod reiciendis! Ratione, fugit. Vel illo, repellat consequatur in molestiae accusantium laboriosam. Soluta, enim.  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate facere optio reprehenderit repudiandae eos magnam sequi, fugiat temporibus sed quos, natus quia odit? Et vero, dolorem dolores eum dicta quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatum accusantium aperiam ullam, facere expedita reprehenderit? Reiciendis, quis maxime libero repellendus laborum eius quae voluptas alias facilis odit. Assumenda, est.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt rerum quibusdam minima praesentium voluptate nostrum, sint laborum reprehenderit pariatur omnis quod temporibus architecto, at, expedita perspiciatis. Aut necessitatibus atque corporis.
+        </p>
+        <h2 style="text-decoration: underline; font-style: oblique; font-weight: 900;">Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam eum eius, voluptates nisi ab fugiat impedit enim. Dolorum repudiandae consequuntur sapiente corporis, vero nesciunt! Sint molestiae qui optio ex suscipit.</p>
+        <ul type="circle">
+            <br>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit inventore, recusandae eligendi perspiciatis eveniet quis aliquid hic sint sunt sit odio dolore, voluptate tempora dolorem autem? Quisquam, dicta quis.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit inventore, recusandae eligendi perspiciatis eveniet quis aliquid hic sint sunt sit odio dolore, voluptate tempora dolorem autem? Quisquam, dicta quis.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit inventore, recusandae eligendi perspiciatis eveniet quis aliquid hic sint sunt sit odio dolore, voluptate tempora dolorem autem? Quisquam, dicta quis.</li>
+        </ul>
+    </main>
+</body>
+</html>

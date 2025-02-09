@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de fundo</title>
+    <style>
+        body{
+            background-image: url(assets/240_F_429860109_EdnRsXPOz9NLnH8CWLgbFoDC3x2HUUYY.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+
+        .quadrado {
+            background-color: rgb(211, 211, 211);
+            border: 3px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .quadrado:hover {
+            opacity: 0.8;
+            transition-duration: .5s;
+        }
+
+        #q1 {
+            background-color: lightblue;
+        }
+
+        #q2 {
+            background-image: linear-gradient(to top, rgb(255, 255, 54), rgb(255, 65, 65));
+        }
+
+        #q3 {
+            background-image: url(assets/img_5terre.jpg);
+            background-size: cover;
+        }
+
+        #q4 {
+            background-image: url(assets/pexels-diego-cancino-467067322-27086057.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="quadrado" id="q1">
+        </div>
+        <div class="quadrado" id="q2">
+        </div>
+        <div class="quadrado" id="q3">
+        </div>
+        <div class="quadrado" id="q4">
+        </div>
+    </main>
+</body>
+</html>

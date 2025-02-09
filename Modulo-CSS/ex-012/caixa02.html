@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            margin: 0px;
+
+
+        }
+        h1 {
+            font-family: serif;
+            font-weight: bolder;
+            font-size: 3em;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border: 10px;
+            border-radius:20px;
+            text-align: center;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
+
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 15px;
+            box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.233);
+        }
+        article{
+            background-color: gainsboro;
+        }
+        nav {
+            background-color: rgb(83, 83, 83);
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.432);
+            border-radius: 22px;
+            
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color:black;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 360px;
+            margin: 20px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.363);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#" id="a1">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+       
+        <section id="noticias">
+            <article>
+                <h2>Nóticia sobre o Rio Grande do Sul </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, facere nam dolorum temporibus, saepe alias veritatis architecto cupiditate eos culpa laboriosam dolor iste repellendus! Sint debitis veritatis aliquam ratione porro?</p>
+                <aside>
+                    <p>Artigo escrito por Pedro</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <main>
+        <section id="assunto"></section>
+        <article>
+            <h2>As 7 maravilhas do Mundo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto aliquam nesciunt enim inventore atque distinctio rem nisi amet? Fugiat dignissimos obcaecati cumque aliquam repellat magnam commodi ab quibusdam odit quae?</p>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Pedro H.C</p>
+    </footer>
+    <div id="bola"></div> 
+</body>
+</html>

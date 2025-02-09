@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex-016</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            color: white;
+            border: 3px solid gray;
+        }
+
+        tr {
+            background-image: linear-gradient(340deg, #8bff8f, #72a8ff);
+        }
+
+        td {
+            border: 1px solid white;
+            padding: 30px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        td:hover {
+            background-color: yellow;
+            transition-duration: .5s;
+            color: black;
+        }
+
+        .numero {
+            text-align: end;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <tr> <!--Primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <tr> <!--Segunda linha-->
+            <td>A2</td>
+            <td class="numero">B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr> <!--Terceira linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
+        </tr>
+
+        <tr> <!--Primeira linha-->
+            <td class="numero">A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+
+</html>

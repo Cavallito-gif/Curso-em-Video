@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+* {                          /*Escrever sem mecher no código */            
+    height:100% ;
+}
+body {
+   background-image: linear-gradient(-45deg,red,#F56E36,#F58E31,#F5AB31);
+   background-attachment: fixed;
+}
